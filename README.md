@@ -4,4 +4,10 @@ This is a "hello world" Scala project targetting Android.
  - [imsizon/ant-android-scala](https://github.com/imsizon/ant-android-scala) was incorporated.
  - Changes specific to my filesystem were added.
 
-If you plan to use this project, You'll need to change the paths in local.properties .
+If you plan to use this skeleton as the basis for a real project, you'll need to change
+
+ - the paths in local.properties
+ - the package name and the activity name in AndroidManifest.xml
+ - the project name in build.xml
+ - the directory tree under src (in order to match the package name)
+ - and, of course, you'll want to replace src/com/example/scandroid/helloworld/hello.scala
